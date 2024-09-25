@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "nova-kit/nova-packages-tool": "^1.17"
     },
     "require-dev": {
         "laravel/nova": "~4.0"
