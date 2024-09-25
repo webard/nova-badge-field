@@ -1,11 +1,13 @@
 # Laravel Nova Badge Field
 
+**NOTE**: This has been forked from [timothyasp/nova-badge-field](https://github.com/timothyasp/nova-badge-field), see [PR #20](https://github.com/timothyasp/nova-badge-field/pull/20)
+
 Works with Nova 4!
 
 ---
 
 This is a simple Laravel Nova Badge field. It extends the `Select` field and allows a simple mapping of colors to values to
-display a "Badge" on the index and details pages.  Can be customized with tailwind classes
+display a "Badge" on the index and details pages. Can be customized with tailwind classes
 
 ### Details Page
 
@@ -70,9 +72,9 @@ Badge::make('Field')
 ```
 
 Finally, if you need even more customization on the badge display, use the `extraClasses` method to pass along any
-additional Tailwind classes to customize the appearance of the `Badge`.  
+additional Tailwind classes to customize the appearance of the `Badge`.
 
-This is useful if you'd like to customize the badges to be stacking instead of inline, when using the `Stack` field. 
+This is useful if you'd like to customize the badges to be stacking instead of inline, when using the `Stack` field.
 
 ```
 use Timothyasp\Badge\Badge;
